@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="748px" height="137px" viewBox="0 0 748 137" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <path d="M199.517617,136 L149.272683,136 C145.868385,111.69972 124.997374,93 99.7588084,93 C74.5202432,93 53.6492317,111.69972 50.2449337,136 L1.58095759e-13,136 C3.59308801,84.0375118 46.883536,43 99.7588084,43 C152.634081,43 195.924529,84.0375118 199.517617,136 Z" id="Combined-Shape" fill="#5BC4B1" fill-rule="nonzero"></path>
+            <path d="M563.621094,63.0117188 C563.621094,87.3122477 583.320565,107.011719 607.621094,107.011719 L607.621094,107.011719 C631.921623,107.011719 651.621094,87.3122477 651.621094,63.0117188" id="Path" stroke="#5BC4B1" stroke-width="50" transform="translate(607.621094, 85.011719) rotate(36.000000) translate(-607.621094, -85.011719) "></path>
+            <rect id="Rectangle" fill="#C99B55" x="411" y="106" width="152" height="30"></rect>
+            <rect id="Rectangle" fill="#FACC86" transform="translate(487.000000, 85.000000) rotate(-45.000000) translate(-487.000000, -85.000000) " x="472" y="70" width="30" height="30"></rect>
+            <circle id="Oval" fill="#F6B19A" cx="712" cy="26" r="18"></circle>
+            <rect id="Rectangle" fill="#D78556" x="676" y="64" width="72" height="72"></rect>
+            <rect id="Rectangle" fill="#51C07F" transform="translate(251.000000, 104.000000) rotate(21.000000) translate(-251.000000, -104.000000) " x="226" y="79" width="50" height="50"></rect>
+            <circle id="Oval" fill="#20403A" cx="200" cy="26" r="18"></circle>
+            <circle id="Oval" stroke="#F6B19A" stroke-width="50" cx="347.392954" cy="68" r="43"></circle>
+        </g>
+    </g>
+</svg>
