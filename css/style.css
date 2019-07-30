@@ -233,11 +233,14 @@ label{
 
 
 @media screen and (max-width:600px) {
+	h1{
+		font-size: 48px;
+	}
 
 	.info-container{
 		display: block;
 		margin: 0px;
-		padding: 24px;
+		padding: 20px;
 		position: static;
 		width: 100%;
 	}
@@ -263,6 +266,10 @@ label{
 
 	.form-container{
 		width: 100%;
+	}
+
+	.form-details{
+		padding: 24px;
 	}
 }
 
