@@ -160,7 +160,7 @@ label{
 	width: 100%;
 }
 
-.social{
+/*.social{
 	margin: 0 auto;
 	margin-bottom: 24px;
 	text-align: center;
@@ -181,7 +181,7 @@ label{
 
 .social a:hover{
 	color: #419C67;
-}
+}*/
 
 @media screen and (max-width:1200px){
 	.info, .form{
@@ -195,9 +195,10 @@ label{
 	}
 
 	.form{
+		background-color: #F5F2EE;
+		display: block;
 		padding: 0px;
 	}
-
 }
 
 @media screen and (max-width:800px){
@@ -215,14 +216,6 @@ label{
 
 	.dots{
 		width: 100%;
-	}
-
-	.collage1{
-		display: none;
-	}
-
-	.collage2{
-		width: 50%;
 	}
 
 	.form{
@@ -269,6 +262,7 @@ label{
 	}
 
 	.form{
+		background-color: #F5F2EE;
 		display: block;
 		margin-top: 0px;
 		width: 100%;
