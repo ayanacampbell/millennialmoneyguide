@@ -209,6 +209,7 @@ label{
 	margin: 0 auto;
 	padding-bottom: 36px;
 	text-align: center;
+	width: 80%;
 }
 
 .headshot{
@@ -296,11 +297,7 @@ label{
 	.collage2{
 		width: 50%;
 	}
-
-	.logo-full{
-		width: 100%;
-	}
-
+	
 	.form{
 		background-color: #F5F2EE;
 		display: block;
