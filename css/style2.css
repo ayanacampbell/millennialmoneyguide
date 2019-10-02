@@ -89,9 +89,9 @@ a:hover, a:visited{
 .logo{
 	display: block;
 	text-align: center;
-	width: 70%;
+	width: 80%;
 	margin: 0 auto;
-	margin-bottom: 48px;
+	margin-bottom: 36px;
 }
 
 .info-container p span{
@@ -295,6 +295,10 @@ label{
 
 	.collage2{
 		width: 50%;
+	}
+
+	.logo-full{
+		width: 100%;
 	}
 
 	.form{
