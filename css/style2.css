@@ -105,12 +105,10 @@ a:hover, a:visited{
 }
 
 .avatar{
-	border: 2px solid #5BC4B1;
-	border-radius: 100px;
 	display: block;
 	margin: 24px 0px;
 	padding: 4px;
-	width: 60px;
+	width: 100px;
 }
 
 
@@ -182,6 +180,42 @@ label{
 .social a:hover{
 	color: #419C67;
 }*/
+
+/* Start Resources CSS */
+.resources-container{
+	margin: 0 auto;
+	padding: 5% 0%;
+	width: 600px;
+}
+
+.resources a{
+	background-color: #51C07F;
+	color: #fff;
+	display: block;
+	margin-bottom: 16px;
+	padding: 16px 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+.resources a:hover{
+	background-color: #49AD75;
+}
+
+.logo-full{
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 36px;
+	text-align: center;
+}
+
+.headshot{
+	display: block;
+	margin: 0 auto;
+	padding: 36px 0px;
+	width: 50%;
+}
 
 @media screen and (max-width:1200px){
 	.info, .form{
@@ -274,6 +308,14 @@ label{
 
 	.form-details{
 		padding: 24px;
+	}
+
+	.resources{
+		padding: 20px;
+	}
+
+	.resources-container{
+		width: 100%;
 	}
 }
 
