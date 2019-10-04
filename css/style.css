@@ -169,7 +169,7 @@ label{
 
 @media screen and (max-width:600px){
 	.wrapper{
-		padding: 36px 20px;
+		padding: 36px 16px;
 		width: 100%;
 	}
 
@@ -201,7 +201,7 @@ label{
 
 	.form-container{
 		margin-top: 0px;
-		padding: 16px;
+		padding: 36px 16px;
 	}
 }
 
