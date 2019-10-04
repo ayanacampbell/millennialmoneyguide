@@ -173,10 +173,25 @@ label{
 		width: 100%;
 	}
 
+	.intro-container{
+		margin-bottom: 0px;
+	}
+
 	.headshot-small{
+		display: block;
+		float: none;
 		margin: 24px 0px;
 		width: 72px;
 	}
+
+	.byline{
+		display: block;
+		float: none;
+		margin: 0px;
+		padding-left: 0px;
+		width: auto;
+		vertical-align: center;
+	}	
 
 	.headshot-large{
 		display: block;
@@ -185,6 +200,7 @@ label{
 	}	
 
 	.form-container{
+		margin-top: 0px;
 		padding: 16px;
 	}
 }
