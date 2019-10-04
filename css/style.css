@@ -54,11 +54,13 @@ p{
 
 
 a{
+	color: #51C07F;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
 
-a:hover, a:visited{
+a:hover{
+	color: #49AD75;
 	cursor: hand;
 }
 
@@ -122,8 +124,8 @@ span{
 	clear: both;
 	background-color: #fff;
 	border-radius: 12px;
-	margin-top: 36px;
-	padding: 36px;
+	margin: 36px 0px;
+	padding: 36px 36px 0px 36px;
 	width: 100%;
 }
 
@@ -149,10 +151,15 @@ label{
 }
 
 .collage3{
+	margin-bottom: 36px;
 	width: 100%;
 }
 
-.wrapper a{
+p.social{
+	text-align: center;
+}
+
+.wrapper a.button{
 	background-color: #51C07F;
 	color: #fff;
 	display: block;
@@ -163,7 +170,7 @@ label{
 	font-weight: 700;
 }
 
-.wrapper a:hover{
+.wrapper a.button:hover{
 	background-color: #49AD75;
 }
 
@@ -201,7 +208,7 @@ label{
 
 	.form-container{
 		margin-top: 0px;
-		padding: 36px 16px;
+		padding: 36px 16px 0px 16px;
 	}
 }
 
