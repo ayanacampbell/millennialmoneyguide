@@ -42,15 +42,14 @@ h3{
 	color: #FFFFFF;
 	font-family: 'Poppins', sans-serif;
 	font-size: 18px;
-	/*letter-spacing: .5px;*/
-	margin-bottom: 16px;
+	margin-bottom: 18px;
 }
 
 p{
 	color: #fff;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	line-height: 1.8;
+	line-height: 1.6;
 }
 
 
@@ -59,146 +58,89 @@ a{
 	font-size: 16px;
 }
 
-a:hover{
-	color: #000;
-}
-
 a:hover, a:visited{
 	cursor: hand;
 }
 
-.info{
-	background-color: #20403A;
-	position: relative;
-	width: 100%;
+span{
+	font-weight: 700;
 }
 
-.info-container{
+
+.wrapper{
+	margin: 0 auto;
 	width: 600px;
-	margin: 0 auto;
-	padding-bottom: 60px;
-	padding-top: 60px;
+	padding: 48px 0px;
 }
 
-.freebie-info{
-	background-color: #20403A;
-	display: inline-block;
-	float: left;
-	margin-top: 72px;
-	width: 50%;
-}
-
-.freebie-info-container{
-	background-color: #20403A;
-	margin: 0 auto;
-	padding: 0 10%;
+.intro-container{
+	width: 100%;
+	margin-bottom: 36px;
 }
 
 .logo{
 	display: block;
-	text-align: center;
-	width: 60px;
 	margin: 0 auto;
-	margin-bottom: 36px;
-}
-
-.info-container p span{
-	color: #FFFFFF;
-	font-weight: 700;
+	padding-bottom: 36px;
+	width: 80%;
 }
 
 .dots{
-	margin-bottom: 36px;
-	width: 600px;
+	width: 100%;
+	padding-bottom: 36px;
 }
 
-.avatar{
-	border: 2px solid #5BC4B1;
-	border-radius: 100px;
+.byline-container{
+	width: 100%;
+}
+
+.headshot-small{
+	display: inline-block;
+	float: left;
+	margin: 36px 0px;
+	width: 100px;
+}
+
+.byline{
+	display: inline-block;
+	float: left;
+	height: 100px;
+	margin: 36px 0px;
+	padding-left: 24px;
+	width: auto;
+	vertical-align: center;
+}
+
+.headshot-large{
 	display: block;
-	margin: 24px 0px;
-	padding: 4px;
-	width: 60px;
-}
-
-.info-collage{
-	width: 100%;
-}
-
-.collage1{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 15%;
-}
-
-.collage2{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	width: 30%;
-}
-
-
-.form{
-	background-color: #F5F2EE;
-	padding-bottom: 48px;
-	padding-top: 72px;
-	width: 100%;
+	margin: 0 auto;
+	padding: 48px 0px;
+	width: 50%;
 }
 
 .form-container{
-	background-color: #FFFFFF;
+	clear: both;
+	background-color: #fff;
 	border-radius: 12px;
-	margin: 0 auto;
-	margin-bottom: 48px;
-	width: 600px;
-}
-
-.freebie-form{
-	display: inline-block;
-	margin: 48px 0px;
-	width: 49%;
-}
-
-.freebie-form-container{
-	background-color: #FFFFFF;
-	border-radius: 12px 12px 0px 0px;
-	margin: 0 auto;
-	width: 600px;
-}
-
-.form-details{
-	padding: 48px;
-}
-
-.freebie-form-details{
-	padding: 48px;
+	margin-top: 36px;
+	padding: 36px;
+	width: 100%;
 }
 
 .coin{
 	display: block;
 	margin: 0 auto;
-	margin-bottom: 12px;
-	width: 60px;
+	padding-bottom: 24px;
+	width: 72px;
 }
 
-.form-container p{
+p.form{
 	color: #6A7A77;
 	margin: 0 auto;
-	margin-bottom: 24px;
+	padding-bottom: 24px;
 	text-align: center;
-	width: 100%;
+	width: 90%;
 }
-
-.freebie-form-container p{
-	color: #6A7A77;
-	margin: 0 auto;
-	margin-bottom: 24px;
-	text-align: center;
-	width: 100%;
-}
-
 
 label{
 	color: #1C3A35;
@@ -206,110 +148,44 @@ label{
 	font-weight: 700; 
 }
 
-
 .collage3{
-	margin-bottom: -5px;
-	position: relative;
 	width: 100%;
 }
 
-.social{
-	margin: 0 auto;
-	margin-bottom: 24px;
-	text-align: center;
-	width: 100%;
-}
-
-.social img{
+.wrapper a{
+	background-color: #51C07F;
+	color: #fff;
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 8px;
-	width: 24px;
+	margin-bottom: 16px;
+	padding: 16px 24px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 700;
 }
 
-.social a{
-	color: #51C07F;
-	text-decoration: underline;
+.wrapper a:hover{
+	background-color: #49AD75;
 }
 
-.social a:hover{
-	color: #419C67;
-}
+@media screen and (max-width:600px){
+	.wrapper{
+		padding: 36px 20px;
+		width: 100%;
+	}
 
+	.headshot-small{
+		margin: 24px 0px;
+		width: 72px;
+	}
 
-@media screen and (max-width:800px){
-
-	.info-container{
+	.headshot-large{
 		display: block;
-		margin: 0px;
-		padding: 72px;
-		position: static;
-		width: 100%;
-	}
-
-	.dots{
-		width: 100%;
-	}
-
-	.collage1{
-		display: none;
-	}
-
-	.collage2{
-		width: 50%;
-	}
-
-	.form{
-		display: block;
-		margin-top: -6px;
-		padding: 72px;
-		width: 100%;
-	}
+		margin: 0 auto;
+		width: 80%;
+	}	
 
 	.form-container{
-		width: 100%;
-	}
-}
-
-
-@media screen and (max-width:600px) {
-	h1{
-		font-size: 48px;
-	}
-
-	.info-container{
-		display: block;
-		margin: 0px;
-		padding: 20px;
-		position: static;
-		width: 100%;
-	}
-
-	.dots{
-		width: 100%;
-	}
-
-	.collage1{
-		display: none;
-	}
-
-	.collage2{
-		width: 50%;
-	}
-
-	.form{
-		display: block;
-		margin-top: 0px;
-		padding: 24px;
-		width: 100%;
-	}
-
-	.form-container{
-		width: 100%;
-	}
-
-	.form-details{
-		padding: 24px;
+		padding: 16px;
 	}
 }
 
