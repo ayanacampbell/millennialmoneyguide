@@ -192,10 +192,14 @@ p.social{
 		width: 100px;
 	}
 
+	.byline-container{
+		display: block;
+	}
+
 	.byline{
 		display: block;
-		float: none;
 		margin: 0px;
+		padding-bottom: 36px;
 		padding-left: 0px;
 		width: auto;
 		vertical-align: center;
